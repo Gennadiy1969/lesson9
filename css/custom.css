@@ -1,0 +1,36 @@
+.wrap{
+	max-width: 1230px;
+	width: 100%;
+	margin:auto;
+}
+.hidden{
+	display: none;
+}
+
+.wrap_order__step1 input[type="text"],
+.wrap_order__step2 input[type="text"],
+.wrap_order__step3 input[type="text"]
+{
+	display: block;
+}
+.wrap_order__step1_btn,
+.wrap_order__step2_btn,
+.wrap_order__step3_btn
+{
+	display: flex;
+	justify-content: space-between;
+}
+.step_prev{
+	background-color: red;
+	padding: 10px 20px;
+	font-size: 14px;
+	color: white;
+	border: none;
+}
+.step_next{
+	background-color: green;
+	padding: 10px 20px;
+	font-size: 14px;
+	color: white;
+	border: none;
+}

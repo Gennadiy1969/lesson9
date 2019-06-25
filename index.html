@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js</title>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+
+<div class="wrap">
+		<form method="post">
+			<div class="wrap_order__step1 step_item" id="step-1">
+				<h2>Інформація про клієнта</h2>
+				<label for="secondname">Прізвище</label>
+				<input type="text" name="secondname" id="secondname">
+				<label for="name">Ім`я</label>
+				<input type="text" name="name" id="name">
+				<label for="lastname">По-батькові</label>
+				<input type="text" name="lastname" id="lastname">
+				<div class="wrap_order__step1_btn">
+					<input type="submit" name="send1" value="Вперед" class="step_next" data-step="2">
+				</div>
+			</div>
+			<div class="wrap_order__step2 step_item hidden" id="step-2">
+				<h2>Доставка</h2>
+				<label for="adress">Адреса</label>
+				<input type="text" name="adress" id="adress">
+				<label for="name">Будинок</label>
+				<input type="text" name="name" id="name">
+				<label for="lastname">Відділення</label>
+				<input type="text" name="lastname" id="lastname">
+				<div class="wrap_order__step2_btn">
+					<input type="submit" name="send2" value="Назад" class="step_prev" data-step="1">
+					<input type="submit" name="send3" value="Вперед" class="step_next" data-step="3">
+				</div>
+			</div>
+			<div class="wrap_order__step3 step_item hidden" id="step-3">
+				<h2>Оплата</h2>
+				<label for="pay">Оплата</label>
+				<p><input type="radio" name="">Приват</p>
+				<p><input type="radio" name="">Аваль</p>
+				<p><input type="radio" name="">Тд</p>
+				<div class="wrap_order__step3_btn">
+					<input type="submit" name="send4" value="Назад" class="step_prev" data-step="2">
+					<input type="submit" name="send5" value="Відправити" class="step_send">
+				</div>
+			</div>
+		</form>
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</html>
+
