@@ -34,3 +34,9 @@
 	color: white;
 	border: none;
 }
+#wrap_order_send{
+	display: none;
+}
+.show_order_status{
+	display: block !important;
+}

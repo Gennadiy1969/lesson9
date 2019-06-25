@@ -11,4 +11,9 @@ $(document).ready(function() {
 		$('#step-'+stepPrev).removeClass('hidden');
 		return false;
 	});
+	$('.step_send').on('click',function() {
+		$('.step_item').addClass('hidden');
+		$('#wrap_order_send').addClass('show_order_status');
+		return false;
+	});
 });
